@@ -1,9 +1,8 @@
-# React + Vite
+#Medal Tracker
+ : 국가 이름, 메달 수를 입력하고 업데이트하여 어느 나라가 어떤 메달을 얼마나 받았는지 추적할 수 있는 페이지
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# medaltracker" 
+##구현 기능
+1. 국가 이름과 메달 수를 입력하여 메달 집계 리스트에 추가할 수 있는 기능
+2. 메달 수 업데이트 기능
+3. 중복된 국가 이름 입력시 alert 창 뜨게 하는 기능
+4. 삭제 기능
