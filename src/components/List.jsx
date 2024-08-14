@@ -2,7 +2,7 @@ import React from "react";
 
 const List = ({ countries, setCountries }) => {
   const handleDeleteCountry = (bringId) => {
-    alert("정말 삭제하시겠습니까?");
+    alert("정말 삭제하시겠습니까?"); // 확인 누르면 바로 삭제되는데 취소는 어떻게 만드는지?
     const newCountries = countries.filter((country) => bringId !== country.id);
     setCountries(newCountries);
   };
