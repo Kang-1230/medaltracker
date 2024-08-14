@@ -5,7 +5,7 @@
 24.08.08 ~ 24.08.14(6일)
 
 ## 컴포넌트 분리
-![jsx구조](https://github.com/user-attachments/assets/d301f5a7-9805-4c09-a632-57caf458c9b2)
+<img src = "https://github.com/user-attachments/assets/d301f5a7-9805-4c09-a632-57caf458c9b2" width "700" height "400">
 보이는 섹션을 중심으로 App을 부모로 해서 Title, Input, List로 분리했다. 
 
 ## 구현 기능
