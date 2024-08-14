@@ -36,19 +36,6 @@ const Input = ({ countries, setCountries }) => {
     }
   };
 
-  //   //이런 식으로 못 줄이나?
-  //   const inputTemplate = function (name, setname) {
-  //     const name = (event) => {
-  //       setname(event.target.value);
-  //     };
-  //     return;
-  //   };
-
-  //   inputTemplate(inputCountryHandler, setCountry);
-  //   inputTemplate(inputGoleHandler, setGoldCount);
-  //   inputTemplate(inputSilverHandler, setSilverCount);
-  //   inputTemplate(inputBronzeHandler, setBronzeCount);
-
   const inputCountryHandler = (event) => {
     setCountry(event.target.value);
   };

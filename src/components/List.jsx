@@ -7,18 +7,18 @@ const List = ({ countries, setCountries }) => {
     setCountries(newCountries);
   };
   return (
-    <div>
+    <ul>
       {countries.length === 0 ? (
         <div>아직 추가된 국가가 없습니다. 메달을 추적하세요!</div>
       ) : (
         countries.map((country) => (
-          <div key={country.country}>
-            <ul>
-              <li>{country.country}</li>
-              <li>{country.gold}</li>
-              <li>{country.silver}</li>
-              <li>{country.bronze}</li>
-            </ul>
+          <li key={country.country}>
+            <div>
+              <p>{country.country}</p>
+              <p>{country.gold}</p>
+              <p>{country.silver}</p>
+              <p>{country.bronze}</p>
+            </div>
             <button
               onClick={() => {
                 handleDeleteCountry(country.id);
@@ -26,10 +26,10 @@ const List = ({ countries, setCountries }) => {
             >
               삭제
             </button>
-          </div>
+          </li>
         ))
       )}
-    </div>
+    </ul>
   );
 };
 
